@@ -4,4 +4,5 @@ const maiorString = cidades.reduce(function (acumulador, atual) {
     return atual.length > acumulador.length ? atual : acumulador;
 });
 
+
 console.log(maiorString);
